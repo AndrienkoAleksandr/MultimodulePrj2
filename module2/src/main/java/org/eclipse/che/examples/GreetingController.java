@@ -28,7 +28,7 @@ public class GreetingController implements Controller {
       for (Long elem: fibonacci) {
           seq += elem + ",";
       }
-      String smartPhrase = "Do you know that sequense Fibonacci from 0 to 5 is " + seq;
+      String smartPhrase = "Do you know that sequense Fibonacci from 0 to 5 are " + seq;
       
       
       view.addObject("greeting", result + " " + smartPhrase);
